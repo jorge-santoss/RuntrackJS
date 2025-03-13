@@ -1,17 +1,23 @@
-function changeColor(){
-let scroll = document.querySelector('myFooter')
-window.addEventListener('scroll', function(){
 
-    if (footer.pageYOffset > 100){
-        footer classList.remove.add('bg-rgb'', 'shadow');
-    } else {
-        footer classList.remove.add('bg-rgb, 'shadow');
-    }
-    consolelog = changeColor();
-})
-}
+let isScrolling;
 
-changeColor();
+// Listen for scroll events
+window.addEventListener('scroll', function ( event ) {
 
+    // Clear our timeout throughout the scroll
+    window.clearTimeout( isScrolling );
 
+    // Set a timeout to run after scrolling ends
+    isScrolling = setTimeout(function() {
 
+        // Run the callback
+  if(document.querySelector('#myFooter').style.background=='red')
+      document.querySelector('#myFooter').style.background='blue';
+  else if(document.querySelector('#myFooter').style.background=='blue')
+    document.querySelector('#myFooter').style.background='yellow'
+  else 
+    document.querySelector('#myFooter').style.background='red'
+
+    }, 66);
+
+}, false);

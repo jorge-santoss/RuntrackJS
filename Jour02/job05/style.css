@@ -1,17 +1,12 @@
 body{
-    min-width: 4096px;
-
+height: 4096px;
 }
 
-#myFooter{
-    background: #13dede;
-    width: 1265px;
-    height: 50px;
+#myFooter {
     position: fixed;
-    bottom: 1%;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+
 }
 
-#myFooter.purple{
-
-    background: #aa0cda;
-    }
