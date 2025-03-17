@@ -1,0 +1,146 @@
+body {
+    background-color: #ffffff;
+}
+
+.page {
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    width: 400px;
+    margin-left: 305px;
+    margin-bottom: 20px;
+    color: #1844b3;
+    font-weight: bold;
+    font-family: verdana;
+}
+button {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    background-color: #2c77da;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding : 10px;
+    /* box-shadow: 0 0 5px black; */
+    color: #ffffff;
+
+}
+
+.game {
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    margin: 20px 350px;
+    background-color: #fffefe;
+    box-shadow: 0 0 5px black;
+}
+
+.game img{
+    width: 100px;
+    height: 100px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: radial-gradient(#ffffff, #ffffff);
+    position: absolute;
+    cursor: pointer;    
+    background-size: 400px;
+    color: red;
+}
+
+.square-1 {
+    top: 0px;
+    left: 0px;
+    background-position: 0 0;
+}
+
+.square-2 {
+    top: 0px;
+    left: 100px;
+    background-position: 300px 0;
+}
+
+.square-3 {
+    top: 0px;
+    left: 200px;
+    background-position: 200px 0;
+}
+
+.square-4 {
+    top: 100px;
+    left: 0px;
+    background-position: 100px 0;
+}
+
+.square-5 {
+    top: 100px;
+    left: 100px;
+    background-position: 0 300px;
+}
+
+.square-6 {
+    top: 100px;
+    left: 200px;
+    background-position: 300px 300px;
+}
+
+.square-7 {
+    top: 200px;
+    left: 0px;
+    background-position: 200px 300px;
+}
+
+.square-8 {
+    top: 200px;
+    left: 100px;
+    background-position: 100px 300px;
+}
+
+.square-9 {
+    top: 200px;
+    left: 200px;
+    background-position: 0 200px;
+
+}
+
+
+.info {
+    background-color: #a4d2ed;
+    position: absolute;
+    top: 500px;
+    left: 437px; 
+    padding: 10px;
+    box-shadow: 0 0 3px #5a5a5a;
+
+}
+
+.flex {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.win {
+    position: absolute;
+    top: 360px;
+    left: 645px;
+    background-color: #2c6fda;
+    color: #9fb6d6;
+    font-size: 1.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}
