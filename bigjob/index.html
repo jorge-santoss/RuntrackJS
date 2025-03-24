@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site La Plateforme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Dancing+Script:wght@400..700&family=Krona+One&family=Press+Start+2P&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<!-- page 1 -->
+    <img src="./images/laplateforme_logo.png" alt="logo_laplateforme" style="display: block;">
+
+<!-- page 2 -->
+
+    <!-- main page -->
+    <header id="header" style="display: none;">
+        <div class="header-container">
+            <img src="./images/logo_plateforme.svg" alt="Logo" class="logo">
+        </div>
+    </header>
+
+
+
+<!-- page 3 -->
+
+    <!-- login -->
+    <div id="login" style="display: none;">
+        <h1>Connexion</h3>
+            <div class="container">
+                <h3>Utiliser votre compte la Plateforme</h3><br>
+                <form>
+                    <input type="text" name="email" id="email" placeholder="Email"><br>
+                    <input type="text" name="password" id="password" placeholder="Mot de passe">
+                    <button type="submit" class="btn">Confirmer</button>
+                </form>
+                <p class="inscription"> "Vous n'avez pas de compte?"
+                    <a href="#" id="inscriptionLink">Inscription</a>
+                </p>
+            </div>
+    </div>
+
+<!-- page 4 -->
+
+    <!-- signup -->
+    <div id="signup" style="display: none;">
+        <h1>Inscription</h1>
+        <div class="container">
+            <h3>Créer votre compte la Plateforme</h1>
+                <form>
+                    <div class="row">
+                        <input type="text" placeholder="Prénom">
+                        <input type="text" placeholder="Nom">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Mot de passe">
+                    <input type="password" placeholder="Confirmer mot de passe">
+                    <button type="submit" class="btn">Confirmer</button>
+                </form>
+                <p class="connexion"> "Avez-vous déjà un compte ?"
+                    <a href="#" id="connexionLink">Connexion</a>
+                </p>
+        </div>
+    </div>
+
+<!-- page 5 -->
+
+    <!-- Request -->
+    <div id="request" style="display: none;">
+        <h3>Demande d’autorisation de présence</h3>
+        <div class="container_request">
+            <form>
+                <input type="date" placeholder=""><br>
+                <input type="time" placeholder=""><br>
+                <select name="" id="filterForm">
+                    <option value="">--Choisir un motif--</option>
+                    <option value="A">AAAAAAAAAAAAA</option>
+                    <option value="B">BBBBBBBBBBBBB</option>
+                    <option value="C">CCCCCCCCCCCCC</option>
+                    <option value="D">DDDDDDDDDDDDD</option>
+                    <option value="D">Autre</option>
+                </select>
+                <button type="submit" class="btn">Confirmer</button>
+            </form>
+        </div>
+    </div>
+
+<!-- page 6 -->
+
+    <!-- Moderator -->
+    <div class="moderator_page" style="display: none;">
+        <div class="moderator_container">
+            <div class="dashboard-card">
+                <aside class="sidebar">
+                    <h2>Dashboard</h2>
+                    <ul>
+                        <li>Lorem, ipsum. 1</li>
+                        <li>Lorem, ipsum.2</li>
+                        <li>Lorem, ipsum.</li>
+                    </ul>
+                </aside>
+            </div>
+            <main class="main-content">
+                <!-- <header class="top-bar"> -->
+                <input type="search" placeholder="Search..." class="search-bar">
+                <!-- </header> -->
+
+                <section class="cards">
+                    <!-- Card -->
+                    <div class="card">
+                        <img src="placeholder.png" alt="Image" class="card-img">
+                        <p class="card-text">Lorem Ipsum</p>
+                        <input type="text" name="date" id="">
+                        <input type="text" name="date" id="">
+                        <input type="text" name="date" id="">
+                        <div class="card-buttons">
+                            <button class="btn btn-success">Accepter</button>
+                            <button class="btn btn-danger">Refuser</button>
+                        </div>
+                    </div>
+                    <!-- Repeat for other cards -->
+                    <div class="card">
+                        <img src="placeholder.png" alt="Image" class="card-img">
+                        <p class="card-text">Lorem Ipsum</p>
+                        <input type="text" name="date" id="">
+                        <input type="text" name="date" id="">
+                        <input type="text" name="date" id="">
+                        <div class="card-buttons">
+                            <button class="btn btn-success">Accepter</button>
+                            <button class="btn btn-danger">Refuser</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="placeholder.png" alt="Image" class="card-img">
+                        <p class="card-text">Lorem Ipsum</p>
+                        <input type="text" name="date" id="">
+                        <input type="text" name="date" id="">
+                        <input type="text" name="date" id="">
+                        <div class="card-buttons">
+                            <button class="btn btn-success">Accepter</button>
+                            <button class="btn btn-danger">Refuser</button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

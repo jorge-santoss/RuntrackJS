@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+</head>
+<body>
+
+    <h1>Pokemon</h1>
+    <form id="filterForm">
+        <!-- Input field for ID -->
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id"><br><br>
+
+        <!-- Input field for Name -->
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom"><br><br>
+
+        <!-- Dropdown list (select) for Type -->
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="id">ID</option>
+            <option value="nom">Nom</option>
+            <option value=type">Type</option>
+        </select><br><br>
+
+        <!-- Button to filter -->
+        <input type="button" value="Filtrer">
+    </form>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="script.js" type="text/JavaScript"></script>
+</body>
+</html>
